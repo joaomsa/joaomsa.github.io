@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Spotting Deployment Regressions Like A Boss"
-date:   2013-10-22 01:13:10
+date:   2013-10-22 01:13:10-0300
 tags: git capistrano
 ---
 

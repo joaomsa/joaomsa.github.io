@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Fingerprint GitHub SSH Public Keys"
-date:   2013-09-22 20:12:10
+date:   2013-09-22 20:12:10-0300
 tags: ssh GitHub
 ---
 
