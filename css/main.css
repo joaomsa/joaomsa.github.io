@@ -1,160 +1,114 @@
-/*****************************************************************************/
-/*
-/* Common
-/*
-/*****************************************************************************/
-
-/* Global Reset */
 * {
-  margin: 0;
-  padding: 0;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
 }
 
-html, body { height: 100%; }
-
 body {
-  background-color: #FFF;
-  font: 13.34px Helvetica, Arial, sans-serif;
-  font-size: small;
-  text-align: center;
+    color: #555;
+    font-family: "Oxygen",sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+    margin: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-size: 100%; }
-
-h1 { margin-bottom: 1em; }
-p { margin: 1em 0; }
-
-a         { color: #00a; }
-a:hover   { color: #000; }
-a:visited { color: #a0a; }
-
-/*****************************************************************************/
-/*
-/* Home
-/*
-/*****************************************************************************/
-ul.posts {
-  list-style-type: none;
-  margin-bottom: 2em;
+    color: #222;
+    font-family: "Crimson Text",Crimson,Georgia,serif;
+    font-weight: 400;
+    letter-spacing: -0.015em;
+    line-height: 1.1;
 }
 
-ul.posts li {
-  line-height: 1.75em;
+a {
+    color: #4967bc;
+    text-decoration: none;
 }
 
-ul.posts span {
-  color: #aaa;
-  font-family: Monaco, "Courier New", monospace;
-  font-size: 80%;
+a:hover {
+    text-decoration: underline;
 }
 
-/*****************************************************************************/
-/*
-/* Site
-/*
-/*****************************************************************************/
-
-.site {
-  font-size: 115%;
-  text-align: justify;
-  width: 42em;
-  margin: 3em auto 2em;
-  line-height: 1.5em;
+a:visited {
+    color: #c24fa7;
 }
 
-.site .header a {
-  font-weight: bold;
-  text-decoration: none;
+aside {
+    font-size: 14px;
+    font-weight: 300;
+    height: 100%;
+    width: 300px;
+    padding: 35px;
+    position: fixed;
+    top: 0;
 }
 
-.site .header h1.title {
-  display: inline-block;
-  margin-bottom: 2em;
+#avatar {
+    border-radius: 50%;
+    border: 2px solid #76bbb8;
+    display: block;
+    margin: auto;
+    width: 90px;
 }
 
-.site .header h1.title a {
-  color: #a00;
+#bio {
+    color: #777;
+    margin-bottom: 50px;
+    margin-top: 0;
 }
 
-.site .header h1.title a:hover {
-  color: #000;
+#bio h1 {
+    font-size: 26px;
+    font-weight: normal;
+    margin-bottom: 10px;
 }
 
-.site .header a.extra {
-  color: #aaa;
-  margin-left: 1em;
+article {
+    margin: 40px auto;
+    max-width: 600px;
+    padding: 10px; /* Figure out why */
 }
 
-.site .header a.extra:hover {
-  color: #000;
+article pre {
+    overflow-x: auto;
+    font-size: 12px;
 }
 
-.site .meta {
-  color: #aaa;
+article .meta {
+    color: #aaa;
+    font-size: 13px;
 }
 
-.site .footer {
-  font-size: 80%;
-  color: #666;
-  border-top: 4px solid #eee;
-  margin-top: 2em;
-  overflow: hidden;
+@media (max-width: 1220px){
+    article {
+        margin: 40px 0 0 320px;
+    }
 }
 
-.site .footer .contact {
-  float: left;
-  margin-right: 3em;
-}
+@media (max-width: 800px){
+    aside {
+        height: auto;
+        padding: 10px;
+        position: static;
+        width: 100%;
+    }
 
-.site .footer .contact a {
-  color: #8085C1;
-}
+    #bio {
+        margin-bottom: 0;
+        text-align: center;
+    }
 
-.site .footer .rss {
-  margin-top: 1.1em;
-  margin-right: -.2em;
-  float: right;
-}
+    #bio h1 {
+        font-size: 30px;
+        margin-top: 10px;
+    }
 
-.site .footer .rss img {
-  border: 0;
-}
+    #contact {
+        display: none;
+    }
 
-/*****************************************************************************/
-/*
-/* Posts
-/*
-/*****************************************************************************/
-
-/* standard */
-.post pre {
-  border: 1px solid #ddd;
-  background-color: #eef;
-  padding: 0 .4em;
-}
-
-.post ul, .post ol {
-  margin-left: 1.35em;
-}
-
-.post code {
-  border: 1px solid #ddd;
-  background-color: #eef;
-  padding: 0 .2em;
-}
-
-.post pre code {
-  border: none;
-}
-
-/* terminal */
-.post pre.terminal {
-  border: 1px solid #000;
-  background-color: #333;
-  color: #FFF;
-}
-
-.post pre.terminal code {
-  background-color: #333;
+    article {
+        margin: 0 auto;
+    }
 }
