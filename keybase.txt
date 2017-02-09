@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/joaomsa
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://joaomsa.com
+  * I am joaomsa (https://keybase.io/joaomsa) on keybase.
+  * I have a public key with fingerprint 7DB6 6BE7 BB58 8559 38C6  5A51 B636 60C8 B456 CDA9
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01013a285afc6ee4ca70bb32dcd943abf645d01592db8f1e8cc97eb07c1113cb367b0a",
+            "fingerprint": "7db66be7bb58855938c65a51b63660c8b456cda9",
+            "host": "keybase.io",
+            "key_id": "b63660c8b456cda9",
+            "kid": "01013a285afc6ee4ca70bb32dcd943abf645d01592db8f1e8cc97eb07c1113cb367b0a",
+            "uid": "91c2bf79d9b32646fd352c6c6a765619",
+            "username": "joaomsa"
+        },
+        "service": {
+            "hostname": "joaomsa.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1486646843,
+    "expire_in": 157680000,
+    "prev": "6f7af89061907d68b18f448ceecf24cfd76db748e47fa7a106b5fdec022c1da4",
+    "seqno": 5,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.62
+Comment: https://keybase.io/crypto
+
+yMIiAnicrZJbSBVBGMePWplHNMsyBIvYiCjNdvYyu3vsoYdADUwIKsngNLfVTc/u
+8Zz1hgqRpvQQIaegQCy6YOhDF6qHSlELhIxIqNQIkjLCsgtUJgjarNRD0GPzMszM
+///7/vPxPUxJ8Pnj+rrfVDU8vfgzbnjgdLWvpMPOaxCwQ+uFQINQwRY3VklZ1A1W
+WFQICCIQgYwkXUUmgYwpBGkixrJECTUUGWETKioVgWpIFOsmYDohhsawqBEAgEyw
+DDUsIiFHMC27jEXCEct2OVajGELMNIxVXVdVQ9YJVJEKMJQhFImOFRUSigxuLHei
+noOHwyjKci2H3/FDcDHeP/T/OXf1Is4ARMKmZlCDM6ACTSqrEoEEIg2qEHh1q6Ms
+YqMQ4+ojDnJCUSQ05Qj8ssYizOur95G/BbnECXFnOOK4DnEq+UO564YDns+tD3vC
+WoaDvxFBbNmUN5Ebalgkajm2EABcSVzLYwJFhzyYrsg5AqsLWxEWtDyFqkFd5Msr
+w2o4EpoaMnVD5KlFjUIdA91UFJ0wRkxJISbVIMWaojNFM5GGgAixalJGREkigCJF
+8D5VZTtCQOUxURlHRq0yG7nVESY0DfYfWuKL8/uWLY33hsvnT0r7M3KvJpf7OroW
+igvb7aM7z2SlTz3OnR8eyS2ZXJE3d7CFpj/q3Bb/1bp248mt2Ms3O4rSqpo3bqj7
+2Nilh0hy9tnPqfv7R1KWLYwOTiRvbR0fncjY3rauNwZPfJIO7177Y2xwZjrzdsG+
+5mtFjX4nrb0h69Kn+9LVOlCaMbsmWLAnX2y8HMuoH/oyVfoNZle9teE8Svuw3u4b
+qnnX/szs7Zx43pp/sWzv67vBIwmhpFsLm7qUcE/SswNX5lZOt9xJX3gfe7HtuLvq
+W2K5ez5xbJ9f9RdeeBDbtfn7MDgZWjPTm3muJKHC17b6ii+leDxVzOv+kTJ7LP1e
+d+1Yz8DNLeeLZq8fLL5+6heOZ0OS
+=UNt6
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/joaomsa
+
+==================================================================
